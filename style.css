@@ -45,6 +45,7 @@ body {
   padding: 32px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
  
 }
 .container > * {
@@ -56,16 +57,19 @@ body {
   font-size: 14px;
   color: var(--Dark-grayish-blue);
   font-weight: 500;
+  letter-spacing: 5px;
 }
 .title-preview {
   color: var(--Very-dark-blue);
   font-family: "Fraunces", serif;
   font-size: 32px;
   font-weight: 700;
+  line-height: 32px;
 }
 .details {
   
   font-size: 14px;
+  line-height: 25px;
   
 }
 .add-to-cart{
@@ -79,10 +83,14 @@ body {
     color: white;
     padding: 1rem 0;
     box-shadow: 0 10px  10px -8px rgb(197, 189, 245);
+    line-height:16px;
     font-family: inherit;
     align-items: center;
-
+    
+   
 }
+
+
 .add-to-cart:hover{
     background-color: var(--Very-dark-blue);
 }
