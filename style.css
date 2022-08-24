@@ -114,4 +114,5 @@ body {
 
 .prev{
     margin-right: 12px;
+    text-decoration: line-through;
 }
